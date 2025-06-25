@@ -120,5 +120,46 @@
   <footer>
     <p>&copy; 2025 SRLogistics | contacto@srlogistics.com.mx</p>
   </footer>
+  <section id="contacto" style="padding: 2rem; background-color: #f7f7f7;">
+  <h2>Contáctanos</h2>
+  <form action="https://formsubmit.co/contacto@srlogistics.com.mx" method="POST">
+    <input type="text" name="name" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu correo" required>
+    <textarea name="message" placeholder="Tu mensaje" rows="5" required></textarea>
+
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://www.srlogistics.com.mx/gracias.html">
+
+    <button type="submit">Enviar mensaje</button>
+  </form>
+</section>
+
+<style>
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+  }
+
+  input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+</style>
 </body>
 </html>
