@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SR Logistics - Transporte de Mercancías</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      padding: 1em;
+      text-align: center;
+    }
+    header img {
+      max-height: 80px;
+    }
+    main {
+      padding: 2em;
+      text-align: center;
+    }
+    section {
+      margin-top: 2em;
+    }
+    form {
+      margin-top: 1em;
+      display: inline-block;
+      text-align: left;
+    }
+    label, input, textarea {
+      display: block;
+      margin-bottom: 1em;
+      width: 300px;
+    }
+    input, textarea {
+      padding: 0.5em;
+    }
+    button {
+      background-color: #003366;
+      color: #fff;
+      padding: 0.5em 1em;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="SR Logistics Logo" />
+  </header>
+  <main>
+    <h1>Bienvenido a SR Logistics</h1>
+    <p>Especialistas en transporte de mercancías en CDMX y área metropolitana.</p>
+
+    <section>
+      <h2>Contáctanos</h2>
+      <form action="mailto:contacto@srlogistics.com.mx" method="post" enctype="text/plain">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="Nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="Correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="Mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 SR Logistics | contacto@srlogistics.com.mx</p>
+  </footer>
+</body>
+</html>
